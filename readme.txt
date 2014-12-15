@@ -15,11 +15,10 @@ This plugin works with sidebar widgets. You can add a scrolling notice board wit
 == Installation ==
 There are 3 methods to install this plugin.
 
-	
 	1. Download the plugin from this page- https://wordpress.org/plugins/scrolling-notice-board/
 	 Now, Go to Plugins >> Add New >> Upload and select your recently downloaded plugin package "scrolling-notice-board-v1.1.4.02.zip". Now click "Install Now". After the succeffsull installation, click on "Activate Plugin" to activate the plugin. Now go to Appearance >> Widgets and find the widget "Scrolling Notice Board". Drag the widget to your preferred sidebar position and you're done.
 
-	1. Extract the plugin file and upload the folder named "hosts" into your "/wp-content/plugins" location of your WordPress installation. Now login to your WordPress admin panel and go to Plugins >> Installed Plugins and Activate the recently added "Scrolling Notice Board". Now go to Appearance >> Widgets and find the widget "Scrolling Notice Board". Drag the widget to your preferred sidebar position and you're done.
+	2. Extract the plugin file and upload the folder named "hosts" into your "/wp-content/plugins" location of your WordPress installation. Now login to your WordPress admin panel and go to Plugins >> Installed Plugins and Activate the recently added "Scrolling Notice Board". Now go to Appearance >> Widgets and find the widget "Scrolling Notice Board". Drag the widget to your preferred sidebar position and you're done.
 
 	3. Directly from WordPress plugin repository: Go to Plugins >> Add New and search for Scrolling Notice Board. Now click Install to install it directly from the official WordPress plugin repository. After the succeffsull installation, click on "Activate Plugin" to activate the plugin. Now go to Appearance >> Widgets and find the widget "Scrolling Notice Board". Drag the widget to your preferred sidebar position and you're done.
 
