@@ -5,12 +5,12 @@ Plugin URI: http://www.freestylepost.com/scrolling-notice-board/
 Tags: notice, board, scroll, recent, post, excerpt,
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
 == Description ==
-This plugin works with sidebar widgets. You can add a scrolling notice board with latest published 5 posts along with excerpt of first 100 characters with this plugin. A sparkling "NEW" banner is shown before each title link. After the title link, the timestamp is shown in a creative way. This plugin works with sidebar widgets. You can add a scrolling notice board with latest published 5 posts along with excerpt of first 100 characters with this plugin. A sparkling "NEW" banner is shown before each title link. After the title link, the timestamp is shown in a creative way. When you hover your mouse over the widget area, the scrolling stops so that the title link can be clicked easily.
+This plugin works with sidebar widgets. You can add a scrolling notice board with latest published 5 posts along with excerpt of first 100 characters with this plugin. A sparkling "NEW" banner is shown before each title link. After the title link, the timestamp is shown in a creative way. When you hover your mouse over the widget area, the scrolling stops so that the title link can be clicked easily.
 
 == Installation ==
 There are 2 methods to install this plugin.
@@ -28,3 +28,4 @@ v1.0.2-beta		12-Dec-2014		Style is added.
 V1.1.0			12-Dec-2014		A solid background for the widget is added.
 v1.1.1			12-Dec-2014		OnMouseOver effect is added.
 v1.1.2			12-Dec-2014		Timestamp is added.
+v1.1.3			15-Dec-2014		Plugin description updated.
