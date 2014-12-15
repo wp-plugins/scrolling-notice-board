@@ -4,8 +4,8 @@ Author URI: http://www.freestylepost.com
 Plugin URI: http://www.freestylepost.com/scrolling-notice-board/
 Tags: notice, board, scroll, recent, post, excerpt,
 Requires at least: 3.2
-Tested up to: 4.0
-Stable tag: 1.1.3
+Tested up to: 4.0.1
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -28,4 +28,5 @@ v1.0.2-beta		12-Dec-2014		Style is added.
 V1.1.0			12-Dec-2014		A solid background for the widget is added.
 v1.1.1			12-Dec-2014		OnMouseOver effect is added.
 v1.1.2			12-Dec-2014		Timestamp is added.
-v1.1.3			15-Dec-2014		Plugin description updated.
+v1.1.3			15-Dec-2014		Plugin description updated. (Not a major change.)
+v1.1.4			15-Dec-2014		Plugin tested upto WordPress v4.0.1
