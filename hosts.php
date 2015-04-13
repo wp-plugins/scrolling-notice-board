@@ -2,7 +2,7 @@
 /*
 Plugin Name: Scrolling Notice Board
 Description: This plugin works with sidebar widgets. You can add a scrolling notice board with latest published 5 posts along with excerpt of first 100 characters with this plugin. A sparkling "NEW" banner is shown before each title link. After the title link, the timestamp is shown in a creative way. When you hover your mouse over the widget area, the scrolling stops so that the title link can be clicked easily.
-Version: 1.1.6
+Version: 1.1.7
 Author: Sultan Mustafijul Hoque
 Plugin URI: http://www.freestylepost.com/scrolling-notice-board/
 Author URI: http://www.freestylepost.com
@@ -49,7 +49,7 @@ foreach( $myposts as $post ) : setup_postdata($post); ?>
 <?php echo $before_widget; ?>
 <H2><center><?php if ( $title )
  echo $before_title . $title . $after_title; ?></center></H2>
-<hr /><marquee behavior="alternate" loop="infinite" direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay=".0001" height="250">
+<hr /><marquee behavior="scroll" loop="infinite" direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay=".0001" height="250">
 <ul>
 <?php $the_query = new WP_Query( 'showposts=5' ); ?>
 
