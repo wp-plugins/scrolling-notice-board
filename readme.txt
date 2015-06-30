@@ -5,7 +5,7 @@ Plugin URI: http://www.freestylepost.com/scrolling-notice-board/
 Tags: notice, board, scroll, recent, post, excerpt,
 Requires at least: 3.2
 Tested up to: 4.2.2
-Stable tag: 1.1.9
+Stable tag: 1.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -32,9 +32,9 @@ Live demo can be found in this URL- http://www.freestylepost.com/scrolling-notic
 
 
 == Versions ==
-* v1.1.7 - 16-May-2015
+* v1.1.7 - 30-Jun-2015
 
-* v1.1.8 - 13-Apr-2015
+* v1.1.7 - 16-May-2015
 
 * v1.1.7 - 13-Apr-2015
 
@@ -72,7 +72,9 @@ Live demo can be found in this URL- http://www.freestylepost.com/scrolling-notic
 
 
 == Changelog ==
-v1.1.8 - 16-May-2015 - Plugin tested upto WordPress v4.2.2
+v1.1.10 - 30-Jun-2015 - Bug fixes.
+
+v1.1.9 - 16-May-2015 - Plugin tested upto WordPress v4.2.2
 
 v1.1.8 - 13-Apr-2015 - Plugin tested upto WordPress v4.1.1
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Scrolling Notice Board
 Description: This plugin works with sidebar widgets. You can add a scrolling notice board with latest published 5 posts along with excerpt of first 100 characters with this plugin. A sparkling "NEW" banner is shown before each title link. After the title link, the timestamp is shown in a creative way. When you hover your mouse over the widget area, the scrolling stops so that the title link can be clicked easily.
-Version: 1.1.9
+Version: 1.1.10
 Author: Sultan Mustafijul Hoque
 Plugin URI: http://www.freestylepost.com/scrolling-notice-board/
 Author URI: http://www.freestylepost.com
@@ -35,7 +35,7 @@ $posttype = $instance['posttype'];
 <?php
 global $post;
 $tmp_post = $post;
-								
+                
 $myposts = get_posts( $args );
 foreach( $myposts as $post ) : setup_postdata($post); ?>
 
@@ -65,7 +65,7 @@ foreach( $myposts as $post ) : setup_postdata($post); ?>
 </table>
 
 <?php
-}	
+} 
 
 public function update( $new_instance, $old_instance ) {
 $instance = array();
@@ -74,10 +74,10 @@ return $instance;
 }
 
 
-    function form($instance) {	
+    function form($instance) {  
 
-		$posttypes = get_post_types('', 'objects');
-	
+    $posttypes = get_post_types('', 'objects');
+  
         $title = esc_attr($instance['title']);
         
         ?>
@@ -85,7 +85,7 @@ return $instance;
           <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label> 
           <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
         </p>
-		
+    
         <?php 
     }
 
@@ -93,7 +93,7 @@ return $instance;
 
 
 function hosts_load_widget() {
-	register_widget( 'hosts_widget' );
+  register_widget( 'hosts_widget' );
 }
 add_action('widgets_init', 'hosts_load_widget', create_function('', 'return register_widget("hosts_load_widget");'));
 
